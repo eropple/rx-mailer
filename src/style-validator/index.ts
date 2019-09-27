@@ -1,7 +1,8 @@
 import { LoggerLike, BunyanLike, bunyanize } from '@eropple/bunyan-wrapper';
+import { findUp } from '@eropple/find-up';
 
 // tslint:disable-next-line: no-require-imports no-var-requires
-const supportMatrix = require('./support-matrix.json');
+const supportMatrix = require(findUp(__dirname, 'support-matrix.json')!);
 
 const capsRe = /[A-Z]/g;
 
