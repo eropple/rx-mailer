@@ -1,0 +1,38 @@
+{
+  "name": "@eropple/rx-mailer",
+  "version": "0.1.0",
+  "description": "TypeScript email templater and mailer built around JSX and React.",
+  "main": "dist",
+  "author": "Ed Ropple",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eropple/rx-mailer"
+  },
+  "private": false,
+  "scripts": {
+    "build": "yarn exec -- tsc",
+    "watch": "yarn build --watch",
+    "prepare": "yarn build",
+    "test:e2e": "yarn build && jest -c ./jest-e2e.json",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^10.12.18",
+    "@types/nodemailer": "^6.2.1",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "5.16.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@eropple/bunyan-wrapper": "^0.1.2",
+    "nodemailer": "^6.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

@@ -1,0 +1,8 @@
+version: "2.4"
+
+services:
+  mailcatcher:
+    image: "schickling/mailcatcher"
+    ports:
+      - 24025:1025/tcp
+      - 24080:1080/tcp

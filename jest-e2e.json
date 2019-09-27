@@ -1,0 +1,16 @@
+{
+  "preset": "ts-jest",
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts",
+    "tsx"
+  ],
+  "rootDir": "test",
+  "testRegex": ".e2e-spec.tsx$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "coverageDirectory": "../coverage",
+  "testEnvironment": "node"
+}
