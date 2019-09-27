@@ -1,6 +1,6 @@
 {
   "name": "@eropple/rx-mailer",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "TypeScript email templater and mailer built around JSX and React.",
   "main": "dist",
   "author": "Ed Ropple",
