@@ -1,6 +1,6 @@
 {
   "name": "@eropple/rx-mailer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript email templater and mailer built around JSX and React.",
   "main": "dist",
   "author": "Ed Ropple",
@@ -31,7 +31,9 @@
   "dependencies": {
     "@eropple/bunyan-wrapper": "^0.1.2",
     "@eropple/find-up": "^0.1.0",
-    "nodemailer": "^6.3.0",
+    "nodemailer": "^6.3.0"
+  },
+  "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

@@ -12,11 +12,11 @@ I like type-safe.
 So let's get started.
 
 ## Installation ##
-You'll need to install `react` and `react-dom` to use this library, as `@eropple/rx-mailer` treats them as peer dependencies.
+You'll need to install `react`, `prop-types`, and `react-dom` to use this library, as `@eropple/rx-mailer` treats them as peer dependencies.
 
 ```
-npm install @eropple/rx-mailer react react-dom
-yarn add @eropple/rx-mailer react react-dom
+npm install --save @eropple/rx-mailer react prop-types react-dom
+yarn add @eropple/rx-mailer react prop-types react-dom
 ```
 
 ## Usage ##
