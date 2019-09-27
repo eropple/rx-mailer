@@ -4,7 +4,6 @@ import NMail from 'nodemailer/lib/mailer';
 import { MailerOptions } from './options';
 import { EmailTransformerFn } from './types';
 import { renderEmail } from './rendering';
-import { EmailProps } from './components/Email';
 
 export interface SendEmailArgs {
   subject: string;
@@ -13,7 +12,7 @@ export interface SendEmailArgs {
   /**
    * The React component to render as the email's HTML part.
    */
-  html: React.ReactElement<EmailProps>;
+  html: React.ReactElement;
 
   /**
    * A text version of your email, to provide to clients that don't
